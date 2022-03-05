@@ -1,0 +1,3 @@
+this is my first file open in py
+This is second line write in file from py
+This is third line in this file
