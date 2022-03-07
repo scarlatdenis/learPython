@@ -1,6 +1,5 @@
 try:
     f = open("test.txt", encoding="utf-8")
-
 finally:
     f.close()
 
@@ -14,7 +13,6 @@ with open("test.txt", "w", encoding="utf-8") as f:
 f = open("test.txt", "r", encoding="utf-8")
 
 f.read()
-
 print(f.tell())
 print(f.read(4))
 f.seek(0)      # cursor to zero, to the first line
@@ -22,3 +20,6 @@ print(f.read(4))  # reading 4 caracters after position of cursor
 
 for line in f:
      print(line)
+
+
+
