@@ -28,3 +28,31 @@ while True:
         print("This value is too large, try again!")
 
 print("You guessed it correctly. :)")
+
+# another code 
+while True:
+    try:
+        a = int(input("Enter a number: "))
+        print("Your number is: ", a)
+        break
+    except:
+        print("Invalid input.")
+        break
+
+# another
+
+def find_slope(x, y):
+    try:
+        slope = y / x
+        print("Slope between", x, "&", y, "=", slope)
+    except ValueError:
+        print("Invalid input")
+    except ZeroDivisionError:
+        print("Divide by Zero error")
+    except:
+        print("Some other error")
+
+
+find_slope(5, 10)
+find_slope("a", "b")
+find_slope(0, 1)
