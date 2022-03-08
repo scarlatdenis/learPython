@@ -77,3 +77,4 @@ del p1
 
 # NameError: name 'p1' is not defined
 print(p1)
+
